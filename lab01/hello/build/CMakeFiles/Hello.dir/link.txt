@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -Wall  -rdynamic CMakeFiles/Hello.dir/HelloWorld.cpp.o CMakeFiles/Hello.dir/main.cpp.o  -o Hello  -Wl,-rpath,/opt/systemc/lib /opt/systemc/lib/libsystemc.so.2.3.3 -pthread 
