@@ -1,0 +1,5 @@
+/home/user/docker-images/EE6470/lab02/sobel_fifo/build/CMakeFiles/rebuild_cache.dir
+/home/user/docker-images/EE6470/lab02/sobel_fifo/build/CMakeFiles/edit_cache.dir
+/home/user/docker-images/EE6470/lab02/sobel_fifo/build/CMakeFiles/check.dir
+/home/user/docker-images/EE6470/lab02/sobel_fifo/build/CMakeFiles/run.dir
+/home/user/docker-images/EE6470/lab02/sobel_fifo/build/CMakeFiles/sobel.dir
