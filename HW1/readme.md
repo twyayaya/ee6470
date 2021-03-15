@@ -3,7 +3,7 @@
 
 
 ## part1 : Gaussian Blur(C/C++)
-    把範例還有提共網頁給的sobel kernel換成Gaussian Blur的kernel<br>
+    把範例還有提共網頁給的sobel kernel換成Gaussian Blur的kernel
     因為使用舊檔案,所以檔案名稱幾乎沒做更動
 * 原始圖片:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part1/lena.bmp)
@@ -13,7 +13,7 @@
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part1/lena_blurTest22.bmp)
 
 ## part2 : Gaussian Blur(systemC)
-    我是把lab2的A Sobel Filter with FIFO interface改寫成Gaussian Blur版本的<br>
+    我是把lab2的A Sobel Filter with FIFO interface改寫成Gaussian Blur版本的
     因為使用舊檔案,所以檔案名稱幾乎沒做更動,架構也不會差太多
 * 架構圖片(lab2的):<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part2/hw1_part2_ar.jpg)
