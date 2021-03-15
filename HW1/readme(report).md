@@ -6,9 +6,9 @@
     把範例還有提共網頁給的sobel kernel換成Gaussian Blur的kernel
     因為使用舊檔案,所以檔案名稱幾乎沒做更動
 ### Run 
-    ```
-    ./sobel
-    ```
+```
+./sobel
+```
 * 原始圖片:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part1/lena.bmp)
 * sobel後的圖片:<br>
@@ -20,10 +20,10 @@
     我是把lab2的A Sobel Filter with FIFO interface改寫成Gaussian Blur版本的
     因為使用舊檔案,所以檔案名稱幾乎沒做更動,架構也不會差太多
 ### Run
-    ```
-    cd build
-    ./sobel
-    ```
+```
+cd build
+./sobel
+```
 * 架構圖片(lab2的):<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part2/hw1_part2_ar.jpg)
 * 原始圖片:<br>
