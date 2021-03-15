@@ -12,4 +12,4 @@
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part1/lena_blurTest22.bmp)
     
 # 參考網站
-    [Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/filtering.html#Gaussian_Blur_)
+[Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/filtering.html#Gaussian_Blur_)
