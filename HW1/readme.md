@@ -13,5 +13,13 @@
 
 ## part2 : Gaussian Blur(systemC)
     我是把lab2的A Sobel Filter with FIFO interface改寫成Gaussian Blur版本的
+* 原始圖片:<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part2/build/lena.bmp)
+* Gaussian Blur後的圖片:<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part2/build/lena_systemCout33.bmp)
+    
+
+
 ## 參考網站
 [Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/filtering.html#Gaussian_Blur_)
+
