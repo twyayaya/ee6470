@@ -22,9 +22,8 @@
     
 ## 問題與討論
 1.因為時間的關係,目前還沒完全把part2的一些C/C++的datatype修改成systemC的datatype<br>
-2.因為時間的關係,code上面一堆//沒刪除,看起來很亂<br>
-3.我的想法是part2裡的sobelfilter只負責做convolution的;testbench則是負責input,output的部分<br>
-4.可以看到part1和part2的sobel圖的左側有些差異,part1圖中的右側跑去最左邊了,這個可能看一下lab2的code把part1的換一下就能解決
+2.我的想法是part2裡的sobelfilter只負責做convolution的;testbench則是負責input,output的部分<br>
+3.可以看到part1和part2的sobel圖的左側有些差異,part1圖中的右側跑去最左邊了,這個可能看一下lab2的code把part1的換一下就能解決
 
 ## 參考網站
 1.[Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/filtering.html#Gaussian_Blur_)<br>
