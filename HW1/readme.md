@@ -17,6 +17,8 @@
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part2/build/lena.bmp)
 * Gaussian Blur後的圖片:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part2/build/lena_systemCout33.bmp)
+* Simulated time:<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/HW1/part2/part2_.jpg)
     
 
 
