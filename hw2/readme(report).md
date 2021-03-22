@@ -24,6 +24,8 @@
 ## part2 : Please rewrite the parts related to pixel transfer at Input and Calculation processes.【有問題待解決】
     會出現"Segmentation fault"
     目前想法可能是重新寫整個code
+    #
+    可能是RBG那邊有問題  3/23 07:32
     
 
 
