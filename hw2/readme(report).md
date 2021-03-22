@@ -11,11 +11,17 @@
 * 計算結果:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw2/old_pixels_send_pic.jpg)
 
-####問題
+#### 問題
     有時候會程式會執行錯誤,輸出圖片結果是黑色的,但還是有計算pixels,可能和part2有關
+    
+##### part1 : rewrite
+    我試著重新順過part1的code,但我看pixels數字還是沒什麼太大改變
+    
+* 計算結果:<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw2/part1_rewrite/rewrite1.jpg)
 
 ## part2 : Please rewrite the parts related to pixel transfer at Input and Calculation processes.【有問題待解決】
-    一直出現"Segmentation fault"
+    會出現"Segmentation fault"
     目前想法可能是重新寫整個code
     
 
