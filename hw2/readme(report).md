@@ -25,7 +25,7 @@
     會出現"Segmentation fault"
     目前想法可能是重新寫整個code
     #
-    可能是RBG那邊有問題  3/23 07:32
+    可能是filter的int rgb 那邊有問題  3/23 07:32
     
 
 
