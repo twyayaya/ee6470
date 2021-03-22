@@ -32,7 +32,7 @@
     ![](https://github.com/twyayaya/ee6470/blob/master/hw2/part2/hw2_part2.jpg)
 
 ## 問題討論
-1. pixels數字差不多,照理來講part2的數字要較少
+1. pixels數字差不多,照理來講part2的數字要較少,應該要很明顯
 
 ## 參考網站
 1.[Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/filtering.html#Gaussian_Blur_)<br>
