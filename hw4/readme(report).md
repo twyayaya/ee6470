@@ -4,7 +4,7 @@
 
 
 ## Gaussian Blur with a TLM-2.0 interconnect
-    基本上就是lab4和HW3做混和,但需要小心的是別複製錯
+    基本上就是lab4為基礎然後和HW3做混和,但需要小心的是別複製錯
 ### Run 
 ```
 cd build
