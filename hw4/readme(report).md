@@ -16,6 +16,7 @@ cd build
 
 * 修改後結果圖:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/HW3/build/lena_hw3.bmp)
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw4/hw4_result.jpg)
 
 
 ## 問題討論
