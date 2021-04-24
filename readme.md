@@ -1,5 +1,5 @@
 # 進度
-  lab做到 : lab05<br>
+  lab做到 : lab06<br>
   HW做到  : hw4<br>
 
 
