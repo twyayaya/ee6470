@@ -106,7 +106,7 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
                +---------------------------------------------------------------------------+
 ```
 
-2.part1
+2.part2
   1. sim_V_BASIC
 ```
 
@@ -134,7 +134,10 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
                +---------------------------------------------------------------------------+
 ```
 ## 問題討論
-1. 
+1. 可以看到的是把rbg綁在一起所花費得時間比r,g,b分開來還快很多
+2. Area的部分則是DPA較BASIC小,par1的area和part2相比,part1的area較好
+3. 在剛開始跑sim_B時沒發生問題,但如果要跑sim_V_BASIC或DPA時就會發生以下狀況
+  1. non-const<br>![](https://github.com/twyayaya/ee6470/blob/master/hw5/nospilt_sim_V_BASIC.jpg)
 
 ## 參考網站
 1.[Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/filtering.html#Gaussian_Blur_)<br>
