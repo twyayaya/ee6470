@@ -26,7 +26,8 @@ make sim_V_DPA
 
 ## 討論
 **code差別(以system.h為例)**<br>
-1.part1
+
+*part1*
   ```c++
   #ifndef NATIVE_SYSTEMC
 	  cynw_p2p<sc_dt::sc_uint<24> > rgb;
@@ -36,7 +37,7 @@ make sim_V_DPA
 	  sc_fifo<sc_dt::sc_uint<24> > result;
   #endif
   ```
-2.part2
+*part2*
 ```c++
 #ifndef NATIVE_SYSTEMC
 	//cynw_p2p<sc_dt::sc_uint<24> > rgb;
@@ -60,14 +61,14 @@ make sim_V_DPA
 ```
 
 **time**<br>
-1.part1
+
+*part1*
 ```
 sim_B:		Simulated time == 52428850 ns
 sim_V_BASIC:	Simulation stopped via $stop(1) at time 76021815100 PS + 0
 sim_V_DPA:	Simulation stopped via $stop(1) at time 76021815100 PS + 0
 ```
-
-2.part2
+*part2*
 ```
 sim_B:		Simulated time == 104857650 ns
 sim_V_BASIC:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
