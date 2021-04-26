@@ -9,7 +9,9 @@
   part1是通道沒分開和lab6差不多,rbg<24>綁在一起傳送接收<br>
   part2則是把r<8>, g<8>, b<8>分開來傳送接收<br>
   檔案都放在stratus資料夾裡,所以run的動作都一樣<br>
-  
+  sim_B       : Run behavioral simulation<br>
+  sim_V_BASIC : Run synthesis and Verilog simulation with HLS configuration BASIC<br>
+  sim_V_DPA   : Run synthesis and Verilog simulation with HLS configuration DPA<br>
 ### Run 
 ```
 cd stratus
@@ -25,7 +27,7 @@ make sim_V_DPA
     ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2/stratus/lena_hw5_part2_test1.bmp)
 
 ## 討論
-**code差別(以system.h為例)**<br>
+**code的比較(以system.h為例)**<br>
 
 *part1*
   ```c++
@@ -60,7 +62,7 @@ make sim_V_DPA
 #endif
 ```
 
-**time**<br>
+**time的比較**<br>
 
 *part1*
 ```
@@ -73,6 +75,22 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 76021815100 PS + 0
 sim_B:		Simulated time == 104857650 ns
 sim_V_BASIC:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
 sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
+```
+
+**Estimated Area的比較(SobelFilter)**<br>
+1.part1
+  1.sim_V_BASIC
+```
+
+        00803: | Allocation Report for all threads:                                        |
+        00805: |                                               Area/Instance               |
+        00805: |                                         ------------------------    Total |
+        00805: |                        Resource  Count    Seq(#FF)    Comb    BB     Area |
+        00805: | -------------------------------  -----  ----------  ------  ----  ------- |
+        00811: | ------------------------------------------------------------------------- |
+        00812: |                      Total Area         798.9(107)  1344.8   0.0   2143.7 |
+               |                                                                           |
+               +---------------------------------------------------------------------------+
 ```
 
 ## 問題討論
