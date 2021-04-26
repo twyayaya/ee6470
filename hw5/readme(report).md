@@ -25,7 +25,7 @@ make sim_V_DPA
     ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2/stratus/lena_hw5_part2_test1.bmp)
 
 ## 討論
-**code差別(以system.h為例)**
+**code差別(以system.h為例)**<br>
 1.part1
   ```c++
   #ifndef NATIVE_SYSTEMC
