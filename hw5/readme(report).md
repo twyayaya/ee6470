@@ -138,12 +138,18 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
 1. 可以看到的是把rbg綁在一起所花費得時間比r,g,b分開來還快很多
 2. Area的部分則是DPA較BASIC小,par1的area和part2相比,part1的area較好
 3. 在剛開始跑sim_B時沒發生問題,但如果要跑sim_V_BASIC或DPA時就會發生以下狀況
-   1. non-const<br>
+   1. **non-const**<br>
    	![](https://github.com/twyayaya/ee6470/blob/master/hw5/nospilt_sim_V_BASIC.jpg)
-	在SobelFilrer裡沒有把filter[filterHeight][filterWidth]前面加const就會出現這狀況<br>
-	int filter[filterHeight][filterWidth] -> const int filter[filterHeight][filterWidth] 就好了<br>
+	在SobelFilrer.cpp裡沒有把filter[filterHeight][filterWidth]前面加const就會出現這ERROR<br>
+	解決方法 : int filter[filterHeight][filterWidth] -> const int filter[filterHeight][filterWidth]<br>
 	
-	
+   2. **Unexpected kind if initial value for**<br>
+	![](https://github.com/twyayaya/ee6470/blob/master/hw5/nospilt_sim_V_BASIC2.jpg)
+	在SobelFilrer.cpp裡,我原本的filter裡面都是小數點,這樣就不用再最後除個f(factor),但好像就是因為用小數點,所以會出現這ERROR<br>
+	解決方法 : 就是把filter裡面改成整數,最後在除個f(factor)<br>
+
+4. 還有一個問題我不知道是為什麼會出現這個,但好像也沒什麼影響
+   ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_nouse.jpg)
 
 
 ## 參考網站
