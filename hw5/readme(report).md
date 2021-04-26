@@ -24,7 +24,9 @@ make sim_V_DPA
 * 修改後結果圖:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2/stratus/lena_hw5_part2_test1.bmp)
 
-
+## 討論
+*part1
+*part2
 
 ## 問題討論
 1. 
