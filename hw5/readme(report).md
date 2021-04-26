@@ -58,6 +58,22 @@ make sim_V_DPA
 	sc_fifo<sc_dt::sc_uint<8> > result_b;
 #endif
 ```
+
+**time**<br>
+1.part1
+```
+sim_B:		Simulated time == 52428850 ns
+sim_V_BASIC:	Simulation stopped via $stop(1) at time 76021815100 PS + 0
+sim_V_DPA:	Simulation stopped via $stop(1) at time 76021815100 PS + 0
+```
+
+2.part2
+```
+sim_B:		Simulated time == 104857650 ns
+sim_V_BASIC:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
+sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
+```
+
 ## 問題討論
 1. 
 
