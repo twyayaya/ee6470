@@ -25,9 +25,39 @@ make sim_V_DPA
     ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2/stratus/lena_hw5_part2_test1.bmp)
 
 ## 討論
-*part1
-*part2
-
+**code差別(以system.h為例)**
+1.part1
+  ```c++
+  #ifndef NATIVE_SYSTEMC
+	  cynw_p2p<sc_dt::sc_uint<24> > rgb;
+	  cynw_p2p<sc_dt::sc_uint<24> > result;
+  #else
+	  sc_fifo<sc_dt::sc_uint<24> > rgb;
+	  sc_fifo<sc_dt::sc_uint<24> > result;
+  #endif
+  ```
+2.part2
+```c++
+#ifndef NATIVE_SYSTEMC
+	//cynw_p2p<sc_dt::sc_uint<24> > rgb;
+	//cynw_p2p<sc_dt::sc_uint<24> > result;
+	cynw_p2p<sc_dt::sc_uint<8> > r;
+	cynw_p2p<sc_dt::sc_uint<8> > g;
+	cynw_p2p<sc_dt::sc_uint<8> > b;
+	cynw_p2p<sc_dt::sc_uint<8> > result_r;
+	cynw_p2p<sc_dt::sc_uint<8> > result_g;
+	cynw_p2p<sc_dt::sc_uint<8> > result_b;
+#else
+	//sc_fifo<sc_dt::sc_uint<24> > rgb;
+	//sc_fifo<sc_dt::sc_uint<24> > result;
+	sc_fifo<sc_dt::sc_uint<8> > r;
+	sc_fifo<sc_dt::sc_uint<8> > g;
+	sc_fifo<sc_dt::sc_uint<8> > b;
+	sc_fifo<sc_dt::sc_uint<8> > result_r;
+	sc_fifo<sc_dt::sc_uint<8> > result_g;
+	sc_fifo<sc_dt::sc_uint<8> > result_b;
+#endif
+```
 ## 問題討論
 1. 
 
