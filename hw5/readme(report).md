@@ -79,7 +79,7 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
 
 **Estimated Area的比較(SobelFilter)**<br>
 1.part1
-  1.sim_V_BASIC
+   1.sim_V_BASIC
 ```
 
         00803: | Allocation Report for all threads:                                        |
