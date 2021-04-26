@@ -140,6 +140,10 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
 3. 在剛開始跑sim_B時沒發生問題,但如果要跑sim_V_BASIC或DPA時就會發生以下狀況
    1. non-const<br>
    	![](https://github.com/twyayaya/ee6470/blob/master/hw5/nospilt_sim_V_BASIC.jpg)
+	在SobelFilrer裡沒有把filter[filterHeight][filterWidth]前面加const就會出現這狀況<br>
+	int filter[filterHeight][filterWidth] -> const int filter[filterHeight][filterWidth] 就好了<br>
+	
+	
 
 
 ## 參考網站
