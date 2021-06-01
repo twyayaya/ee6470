@@ -134,6 +134,10 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
                |                                                                           |
                +---------------------------------------------------------------------------+
 ```
+**RTL Summary and Tree Map**<br>
+
+
+
 ## 問題討論
 1. 可以看到的是把rbg綁在一起所花費得時間比r,g,b分開來還快很多
 2. Area的部分則是DPA較BASIC小,par1的area和part2相比,part1的area較好
