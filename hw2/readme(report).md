@@ -9,20 +9,21 @@
 ```
 ./sobel
 ```
-* 計算結果:<br>
+* 舊的計算結果,新的在下面:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw2/old_pixels_send_pic.jpg)
 
-#### 問題
-    有時候會程式會執行錯誤,輸出圖片結果是黑色的,但還是有計算pixels,可能和part2有關
     
 ##### part1 : rewrite
     把pixel_number +=9;改成pixel_number +=3;換到171行
     2021/06/02
     
-* 舊的計算結果:<br>
+* 舊的計算結果,新的在下面:<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw2/part1_rewrite/part1_rewrite_plus9.jpg)
 
 ## part2 : Please rewrite the parts related to pixel transfer at Input and Calculation processes.
+    part1的就只是單純3*3讀取pixel,會有很大部分重複送
+    part2則不會,只會讀取新的一列
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw2/hw2_neww.jpg)
     2021/06/02
     
 
