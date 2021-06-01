@@ -23,8 +23,8 @@
 ## part2 : Please rewrite the parts related to pixel transfer at Input and Calculation processes.
     part1的就只是單純3*3讀取pixel,會有很大部分重複送
     part2則不會,只會讀取新的一列
-    ![](https://github.com/twyayaya/ee6470/blob/master/hw2/hw2_neww.jpg)
-    ![](https://github.com/twyayaya/ee6470/blob/master/hw2/hw2_new_pic.jpg)
+   ![](https://github.com/twyayaya/ee6470/blob/master/hw2/hw2_neww.jpg)
+
     2021/06/02
     
 
