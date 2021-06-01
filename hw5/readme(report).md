@@ -135,18 +135,38 @@ sim_V_DPA:	Simulation stopped via $stop(1) at time 128450615100 PS + 0
                +---------------------------------------------------------------------------+
 ```
 **RTL Summary and Tree Map**<br>
+
   1.part1, RTL Summary, BASIC
+  
    ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part1_basic_1.jpg)
   
   2.part1, Tree Map, BASIC
+  
   ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part1_basic_2.jpg)
   
   3.part1, RTL Summary, DPA
+  
   ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part1_dpa_1.jpg)
   
   4.part1, Tree Map, DPA
+  
   ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part1_dpa_2.jpg)
   
+  5.part2, RTL Summary, BASIC
+  
+   ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2_basic_1.jpg)
+  
+  6.part2, Tree Map, BASIC
+  
+  ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2_basic_2.jpg)
+  
+  7.part2, RTL Summary, DPA
+  
+  ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2_dpa_1.jpg)
+  
+  8.part2, Tree Map, DPA
+  
+  ![](https://github.com/twyayaya/ee6470/blob/master/hw5/hw5_part2_dpa_2.jpg)  
 
 
 ## 問題討論
