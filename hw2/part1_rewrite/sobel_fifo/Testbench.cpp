@@ -168,6 +168,7 @@ void Testbench::do_sobel() {
             o_r.write(R);
             o_g.write(G);
             o_b.write(B);
+            pixel_number +=3;
             
           }else{
             o_r.write(0);
@@ -179,7 +180,7 @@ void Testbench::do_sobel() {
         //  o_g.write(G);
         //  o_b.write(B);
       }
-        pixel_number +=9;
+        //pixel_number +=9;
 
         *(target_bitmap + bytes_per_pixel * (width * y + x) + 2) = R;
         *(target_bitmap + bytes_per_pixel * (width * y + x) + 1) = G;
