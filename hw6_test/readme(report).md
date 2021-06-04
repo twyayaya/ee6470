@@ -23,10 +23,10 @@ make sim
 ## 討論
   因為從這結果圖來看的話只能知道最後那32個reg最後存了什麼,所以原本想法是<br>
   step1. 用以前的hw把圖模糊化<br>
-  step2. 再把模糊過後的圖拿去生成bitmap(A)<br>
-  step3. 用A和這次作業生出來的數字進行比對<br>
-  不過我在step2就遇到問題了,我是使用lab8的File byte array這part,因為riscv-vp不能直接輸出,所以我想說直接用複製print出來的值,再另外存成.h檔案<br>
-  不過它print出來的值太多,一次無法複製完,大概會缺少一半所以現在還在想其他方法.<br>
+  ![](https://github.com/twyayaya/ee6470/blob/master/hw6_test/lena_std_short_for_hw6.bmp)
+  step2. 再把模糊過後的圖拿去生成bitmap(lena_std_short_for_hw6.h)<br>
+  step3. 用lena_std_short_for_hw6.h和這次作業生出來的數字進行比對<br>
+  正在step3努力.<br>
 
 
 ## 參考網站
