@@ -23,9 +23,15 @@ make sim
 ## 討論
   因為從這結果圖來看的話只能知道最後那32個reg最後存了什麼,所以原本想法是<br>
   step1. 用以前的hw把圖模糊化<br>
-  ![](https://github.com/twyayaya/ee6470/blob/master/hw6_test/lena_std_short_for_hw6.bmp)
+    原圖:<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw6_test/build/lena_std_short.bmp)
+    修改後:<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw6_test/lena_std_short_for_hw6.bmp)
+    
   step2. 再把模糊過後的圖拿去生成bitmap(lena_std_short_for_hw6.h)<br>
+  
   step3. 用lena_std_short_for_hw6.h和這次作業生出來的數字進行比對<br>
+  
   正在step3努力.<br>
 
 
