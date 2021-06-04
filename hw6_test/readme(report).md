@@ -6,6 +6,7 @@
 ##  Cross-compile Gaussian Blur to RISC-V VP platform
   使用lab8的 sobel filter來改<br>
   然後把原本的o_result改成o_r, o_g, o_b, 因為根據之前的看法拆成這樣速度比較快一點<br>
+  然後題目沒說要用RS版本的,所以我在platform裡關於RS的東西都//掉
   
 ### Run 
 ```
