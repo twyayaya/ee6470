@@ -36,7 +36,7 @@ make sim
   
 ## 問題
   我在main.cpp裡面增加了以下的code來比較輸入和輸出是否為一樣的.h檔,但都是失敗了<br>
-  檔案在step3_file裡<>
+  檔案在step3_file裡,然後因為多了這幾段,模擬時間增加許多,reg最終所留下來的數值也有所改變<br>
   
     //new
     #include "lena_std_short_for_hw6_v2.h"
