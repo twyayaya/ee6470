@@ -67,6 +67,7 @@ make sim
     printf("if no 012 then !!correct!!");
     }
   
+  ![](https://github.com/twyayaya/ee6470/blob/master/hw6_test/step3.jpg)<br>
 
 
 ## 參考網站
