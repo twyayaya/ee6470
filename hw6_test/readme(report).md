@@ -65,7 +65,7 @@ make sim
       }
     }
     printf("if no 012 then !!correct!!");
-  }
+    }
   
 
 
