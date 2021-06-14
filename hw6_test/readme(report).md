@@ -38,12 +38,13 @@ make sim
   #問題
   我在main.cpp裡面增加了以下的code來比較輸入和輸出是否為一樣的.h檔,但都是失敗了
   '''c++
-  //new
-  #include "lena_std_short_for_hw6_v2.h"
-  //new
-  ...
-  ...
-  //new
+  
+    //new
+    #include "lena_std_short_for_hw6_v2.h"
+    //new
+    ...
+    ...
+    //new
       //unsigned char lena_std_short_for_hw6_bmp[] = {}
       unsigned char R = lena_std_short_for_hw6_v2_bmp[bytes_per_pixel * (j * width + i) + 2];
       unsigned char G = lena_std_short_for_hw6_v2_bmp[bytes_per_pixel * (j * width + i) + 1];
@@ -66,6 +67,7 @@ make sim
     }
     printf("if no 012 then !!correct!!");
   }
+  
   '''
 
 
