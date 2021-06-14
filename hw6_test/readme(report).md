@@ -38,8 +38,6 @@ make sim
 ## 問題
   我在main.cpp裡面增加了以下的code來比較輸入和輸出是否為一樣的.h檔,但都是失敗了<br>
   
-  '''c
-  
     //new
     #include "lena_std_short_for_hw6_v2.h"
     //new
@@ -69,7 +67,6 @@ make sim
     printf("if no 012 then !!correct!!");
   }
   
-  '''
 
 
 ## 參考網站
