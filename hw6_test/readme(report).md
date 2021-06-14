@@ -36,8 +36,9 @@ make sim
   正在step3努力.<br>
   
   #問題
-  我在main.cpp裡面增加了以下的code來比較輸入和輸出是否為一樣的.h檔,但都是失敗了
-  '''c++
+  我在main.cpp裡面增加了以下的code來比較輸入和輸出是否為一樣的.h檔,但都是失敗了<br>
+  
+  '''c
   
     //new
     #include "lena_std_short_for_hw6_v2.h"
