@@ -34,6 +34,39 @@ make sim
   step3. 用lena_std_short_for_hw6.h和這次作業生出來的數字進行比對<br>
   
   正在step3努力.<br>
+  
+  #問題
+  我在main.cpp裡面增加了以下的code來比較輸入和輸出是否為一樣的.h檔,但都是失敗了
+  '''c++
+  //new
+  #include "lena_std_short_for_hw6_v2.h"
+  //new
+  ...
+  ...
+  //new
+      //unsigned char lena_std_short_for_hw6_bmp[] = {}
+      unsigned char R = lena_std_short_for_hw6_v2_bmp[bytes_per_pixel * (j * width + i) + 2];
+      unsigned char G = lena_std_short_for_hw6_v2_bmp[bytes_per_pixel * (j * width + i) + 1];
+      unsigned char B = lena_std_short_for_hw6_v2_bmp[bytes_per_pixel * (j * width + i) + 0];
+
+      if (R != buffer[0])
+      {
+        printf("0 "); //R error
+      }
+      if (G != buffer[1])
+      {
+        printf("1 "); //G error
+      }
+      if (B != buffer[2])
+      {
+        printf("2 "); //B error
+      }
+      //new
+      }
+    }
+    printf("if no 012 then !!correct!!");
+  }
+  '''
 
 
 ## 參考網站
