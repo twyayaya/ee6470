@@ -17,11 +17,12 @@ make sim
 ```
 
 * 結果:<br>
-* 2 core
+* 2 core<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw7_v2/hw7_1.jpg)<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw7_v2/hw7_2.jpg)<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw7_v2/hw7_3.jpg)<br>
-* 1 core
+    
+* 1 core<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw6_test/hw6_2.jpg)<br>
 
 
