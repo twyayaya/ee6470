@@ -5,6 +5,9 @@
 
 ##  Data Partitioning of the Gaussian Blur Processing
   使用hw6和lab8其中兩個有用到多核(tiny32-mc)的小lab<br>
+  其中的id是讓我看目前是在用哪個core(core0 or core1)<br>
+  然後因為是寬度對半切,原圖是256*256,所以兩core各算128<br>
+  那個p就是紀錄現在算到寬度的哪,當算到寬度為128時會結束
   
   
 
@@ -18,9 +21,10 @@ make sim
 
 * 結果:<br>
 * 2 core<br>
-    ![](https://github.com/twyayaya/ee6470/blob/master/hw7_v2/hw7_1.jpg)<br>
-    ![](https://github.com/twyayaya/ee6470/blob/master/hw7_v2/hw7_2.jpg)<br>
-    ![](https://github.com/twyayaya/ee6470/blob/master/hw7_v2/hw7_3.jpg)<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw7_test/hw7_test_1.jpg)<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw7_test/hw7_test_2.jpg)<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw7_test/hw7_test_3.jpg)<br>
+    ![](https://github.com/twyayaya/ee6470/blob/master/hw7_test/hw7_test_4.jpg)<br>
     
 * 1 core<br>
     ![](https://github.com/twyayaya/ee6470/blob/master/hw6_test/hw6_2.jpg)<br>
@@ -36,7 +40,7 @@ make sim
 ## 問題
   可能是因為使用2core 所以剛開始那邊會重疊
   應該蠻好調整的吧?
-  ![](https://github.com/twyayaya/ee6470/blob/master/hw7_v2/hw7_1.jpg)<br>
+  ![](https://github.com/twyayaya/ee6470/blob/master/hw7_test/hw7_test_1.jpg)<br>
 
 
 ## 參考網站
